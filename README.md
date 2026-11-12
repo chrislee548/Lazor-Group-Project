@@ -103,8 +103,3 @@ PYTHONPATH=src python3 benchmarks/benchmark.py
 
 The benchmark script searches for `.bff` files in `examples/` and `boards/` and prints the outcome, runtime, and number of tested candidates. Include at least one puzzle file to obtain benchmark results. These local examples are not necessarily the instructor's grading boards.
 
-## Notes for submission
-
-Before submission, verify that all files have been merged, the documented commands run from a fresh checkout, the required board fixtures are present and that the solutions are correct. The assignment also asks the group to submit the repository URL and create a **tagged GitHub release** of the final version.
-
-Individual contribution details are available in `README_ZHILIN.md`, `README_MINGCHEN.md`, and `README_YUTUNG.md`.
