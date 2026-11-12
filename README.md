@@ -18,36 +18,6 @@ The solver supports reflective (`A`), opaque (`B`) and refractive (`C`) blocks w
 
 All members collaborate on integration, debugging and testing.
 
-## Repository structure
-
-```text
-Lazor-Group-Project/
-├── src/
-│   └── lazor/
-│       ├── __init__.py
-│       ├── model.py
-│       ├── parser.py
-│       ├── simulator.py
-│       ├── solver.py
-│       ├── output.py
-│       └── cli.py
-├── tests/
-│   ├── test_parser.py
-│   ├── test_simulator.py
-│   ├── test_solver.py
-│   └── test_board_suite.py
-├── benchmarks/
-│   └── benchmark.py
-├── boards/
-│   └── *.bff
-├── README.md
-├── README_ZHILIN.md
-├── README_MINGCHEN.md
-└── README_YUTUNG.md
-```
-
-This is the **intended integrated layout**. Each member's ZIP contains their own portion of these files. Merge the files into this structure before running the complete project. Create an empty `src/lazor/__init__.py` if it does not exist.
-
 ## Requirements
 
 - Python **3.10 or newer** (the code uses `X | None` type annotations).
